@@ -1,7 +1,6 @@
 
   export const getDbConnectionString = () => {
     return process.env.MONGO_CONNECTION_STRING;
-    // return `mongodb://kobi1:kobi123@localhost:27017/avartii`;
   }
 
   export const getSecret = () => {
